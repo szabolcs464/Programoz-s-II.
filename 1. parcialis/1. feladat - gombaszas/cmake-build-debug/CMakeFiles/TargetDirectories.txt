@@ -1,0 +1,3 @@
+C:/Programming/Programozas-II/1. parcialis/1. feladat - gombaszas/cmake-build-debug/CMakeFiles/1__feladat___kincskereso.dir
+C:/Programming/Programozas-II/1. parcialis/1. feladat - gombaszas/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Programming/Programozas-II/1. parcialis/1. feladat - gombaszas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
