@@ -5,11 +5,11 @@
 #ifndef LABOR_3_FUNCTIONS_H
 #define LABOR_3_FUNCTIONS_H
 
-void kiir(int v[], int n );
+void kiir(char v[], int n );
 
 void rendezes(int v[], int n);
 
-void mergeSort(int arr[], int left, int right);
+void mergeSort(char arr[], int left, int right);
 
 void kereses(int v[], int n);
 

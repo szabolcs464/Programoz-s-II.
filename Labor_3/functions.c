@@ -7,15 +7,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void kiir(int v[], int n) {
+void kiir(char v[], int n) {
     for (int i = 0; i < n; i++) {
-        printf("%d ", v[i]);
+        printf("%c ", v[i]);
     }
     printf("\n");
 }
 
 void rendezes(int v[], int n) {
-    int temp;
+    char temp;
     for (int i = 0; i < n - 1; i++) {
         for (int j = i; j < n; j++) {
             if (v[i] > v[j]) {
@@ -27,12 +27,12 @@ void rendezes(int v[], int n) {
     }
 }
 
-static void merge(int arr[], int left, int mid, int right){
+static void merge(char arr[], int left, int mid, int right){
     int n1 = mid - left + 1;
     int n2 = right - mid;
 
-    int *L = (int*)malloc(n1 * sizeof(int));
-    int *R = (int*)malloc(n2 * sizeof(int));
+    char *L = (char*)malloc(n1 * sizeof(char));
+    char *R = (char*)malloc(n2 * sizeof(char));
 
     for (int i = 0; i < n1; i++)
         L[i] = arr[left + i];
@@ -60,7 +60,7 @@ static void merge(int arr[], int left, int mid, int right){
     free(R);
 }
 
-void mergeSort(int arr[], int left, int right){
+void mergeSort(char arr[], int left, int right){
     if (left < right)
     {
         int mid = left + (right - left) / 2;

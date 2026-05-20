@@ -4,6 +4,8 @@
 
 #include "functions.h"
 
+#include <stdio.h>
+
 // Buborékrendezés
 void sorba_rendez(int csomagok[], int darab) {
     int i, j, csere;
@@ -29,6 +31,7 @@ int maximum_kiszallitas(int csomagok[], int darab, int max_energia) {
         if (max_energia >= csomagok[i]) {
             max_energia = max_energia - csomagok[i];
             kiszallitott_darab++;
+            //printf("%i ", csomagok[i]);
         } else {
             // Elfogyott az energia
             break;

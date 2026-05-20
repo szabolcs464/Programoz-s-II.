@@ -7,16 +7,16 @@
 int main(void) {
     int n;
     scanf("%d", &n);
-    int v[n];
+    char v[n];
     srand(time(NULL));
     for (int i = 0; i < n; i++){
-        v[i] = rand() % 200 - 100;
+        v[i] = 'a' + (rand() % 26);
     }
     printf("A tomb:\n");
     kiir(v, n);
     mergeSort(v, 0, n-1);
     printf("\nRendezve:\n");
     kiir(v, n);
-    binariskereses(v, n);
+    //binariskereses(v, n);
     return 0;
 }

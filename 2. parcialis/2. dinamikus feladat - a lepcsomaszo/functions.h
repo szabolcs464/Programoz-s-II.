@@ -1,0 +1,10 @@
+//
+// Created by nadys on 5/13/2026.
+//
+
+#ifndef INC_2__DINAMIKUS_FELADAT___A_LEPCSOMASZO_FUNCTIONS_H
+#define INC_2__DINAMIKUS_FELADAT___A_LEPCSOMASZO_FUNCTIONS_H
+
+int modok_szama(int lepcsofokok);
+
+#endif //INC_2__DINAMIKUS_FELADAT___A_LEPCSOMASZO_FUNCTIONS_H
